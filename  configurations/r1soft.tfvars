@@ -1,0 +1,20 @@
+# Below code is used to set backend only
+s3_bucket                       	=	"terraform-class-aizirek"
+s3_folder_region                	=	"us-east-1"
+vpc_id		    	            	=	"vpc-02cdc32255a1080fd"
+zone_id			                    =	"Z1QJBJQ2HZ8GGR" 
+domain			                    =	"aizirek.org"
+base_domain			                =	"aizirek.org"
+region 			                    = 	"us-east-1"
+s3_folder_project               	=   "project-r1soft" 
+ami_id                              =   "ami-0fc61db8544a617ed" 
+instance_type                       =   "t2.micro"
+key_name                            =   "test"
+route_53                            =   "aizirek.org"
+ssh_key_location                    =   "~/.ssh/id_rsa"
+user                                =   "ec2-user"
+ 
+ # Please do not change below
+environment                     	=   	"tower"
+s3_folder_type                  	=   	"tools"
+s3_tfstate_file               	=   	"tower.tfstate"
